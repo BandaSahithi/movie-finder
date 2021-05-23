@@ -2,7 +2,7 @@
     	{
              movie_name=document.getElementById("movie_name").value;
               httpRequest= new XMLHttpRequest();
-             url= "http://www.omdbapi.com/?i=tt3896198&apikey=97097bcc&t=";
+             url= "https://www.omdbapi.com/?i=tt3896198&apikey=97097bcc&t=";
               httpRequest.open("GET",url+movie_name);
               httpRequest.send();
 
